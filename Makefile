@@ -150,6 +150,12 @@ clean:
 clean-results:
 	-rm -f *.cfg *.pdf *.prf *.sty
 
+# modifications by jc@unternet.net
+distclean:  clean
+	-rm -f *.cfg *.prf *.sty
+# don't use realclean unless you want to get rid of PDFs
+# end jc@unternet.net modifications
+
 realclean:  clean clean-results
 
 ### create packed files
