@@ -149,9 +149,7 @@ clean:
 
 clean-results:
 	-rm -f *.cfg *.pdf *.prf *.sty
-distclean:  clean
-	-rm -f *.cfg *.prf *.sty
-# don't use realclean unless you want to get rid of PDFs
+
 realclean:  clean clean-results
 
 ### create packed files
