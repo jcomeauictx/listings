@@ -16,5 +16,5 @@ Many parameters control the output and if your preferred
 programming language isn't already supported, you can make
 your own definition.
 
-*Note for LPPL 6.d.2* this work has been modified from the official
- `listings` package. To get the unmodified source, `git checkout unmodified`.
+* Note for LPPL 6.d.2* this work has been modified from the official
+  listings` package. To get the unmodified source, `git checkout unmodified`.
