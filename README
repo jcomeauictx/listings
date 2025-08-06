@@ -4,6 +4,7 @@ Copyright 1996--2004 Carsten Heinz (the package)
 Copyright 1996--2007 individual authors (language drivers)
 Copyright 2006--2007 Brooks Moses (continued maintenance)
 Copyright 2013--     Jobst Hoffmann (continued maintenance)
+Copyright 2025--     John Comeau <jc@unternet.net> (unauthorized modifications)
 
 Released under the LaTeX Project Public License 1.3c or later
 
@@ -14,3 +15,6 @@ print code snippets using a command similar to \verb'.
 Many parameters control the output and if your preferred
 programming language isn't already supported, you can make
 your own definition.
+
+*Note for LPPL 6.d.2* this work has been modified from the official
+ `listings` package. To get the unmodified source, `git checkout unmodified`.
